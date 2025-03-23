@@ -1,0 +1,41 @@
+.container {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .welcomeScreen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .welcomeTitle {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .welcomeSubtitle {
+    font-size: 1.2rem;
+    color: gray;
+  }
+  
+  .formContainer {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .formTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

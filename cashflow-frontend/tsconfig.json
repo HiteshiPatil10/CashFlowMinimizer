@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "jsx": "preserve",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "allowJs": true,
+      "strict": false,
+      "outDir": "./dist",
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./*"]
+      }
+    },
+    "exclude": ["node_modules", "next.config.js", ".next"]
+  }
+  
